@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>English Story Reader</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#f8f5ef;
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    color:#3d2e1f;
+
+    padding:20px;
+
+}
+
+/* Cabeçalho */
+
+header{
+
+    background:linear-gradient(#d7c5a2,#c2a06f);
+
+    border:3px solid #8a6337;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    text-align:center;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.18);
+
+    margin-bottom:20px;
+
+}
+
+header h1{
+
+    font-size:30px;
+
+}
+
+header p{
+
+    margin-top:8px;
+
+    color:#604421;
+
+}
+
+/* Categoria */
+
+details{
+
+    margin-bottom:15px;
+
+    border:2px solid #b78d52;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    background:white;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+
+}
+
+summary{
+
+    list-style:none;
+
+    cursor:pointer;
+
+    padding:18px;
+
+    font-size:19px;
+
+    font-weight:bold;
+
+    background:linear-gradient(#e9d7b4,#d8b680);
+
+    user-select:none;
+
+}
+
+summary::-webkit-details-marker{
+
+    display:none;
+
+}
+
+summary::before{
+
+    content:"⚙ ";
+
+}
+
+.children{
+
+    padding:15px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+/* Botões */
+
+a{
+
+    text-decoration:none;
+
+}
+
+.button{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    background:#fffdf8;
+
+    border:2px solid #b3874d;
+
+    border-radius:12px;
+
+    padding:16px;
+
+    color:#3c2d1c;
+
+    font-size:18px;
+
+    transition:.2s;
+
+}
+
+.button:hover{
+
+    background:#f3e5c7;
+
+    transform:translateY(-2px);
+
+}
+
+.button span{
+
+    font-size:22px;
+
+}
+
+/* Rodapé */
+
+footer{
+
+    margin-top:25px;
+
+    text-align:center;
+
+    color:#87653d;
+
+    font-size:14px;
+
+}
+
+/* Mobile */
+
+@media(max-width:600px){
+
+header h1{
+
+font-size:24px;
+
+}
+
+summary{
+
+font-size:18px;
+
+padding:16px;
+
+}
+
+.button{
+
+font-size:17px;
+
+padding:15px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>📚 English Story Reader</h1>
+
+<p>Aprenda inglês lendo histórias.</p>
+
+</header>
+
+<!-- História -->
+
+<details open>
+
+<summary>História Principal</summary>
+
+<div class="children">
+
+<a href="capitulo01.html">
+
+<div class="button">
+
+📖 Capítulo 01 — A Frequência Errada
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="capitulo02.html">
+
+<div class="button">
+
+📖 Capítulo 02
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="capitulo03.html">
+
+<div class="button">
+
+📖 Capítulo 03
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+</div>
+
+</details>
+
+<!-- Gramática -->
+
+<details>
+
+<summary>Gramática</summary>
+
+<div class="children">
+
+<a href="#">
+
+<div class="button">
+
+📘 Conectivos
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="#">
+
+<div class="button">
+
+👤 Pronomes
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="#">
+
+<div class="button">
+
+⚡ Verbos
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="#">
+
+<div class="button">
+
+📍 Preposições
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+</div>
+
+</details>
+
+<!-- Vocabulário -->
+
+<details>
+
+<summary>Vocabulário</summary>
+
+<div class="children">
+
+<a href="#">
+
+<div class="button">
+
+📚 100 palavras
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="#">
+
+<div class="button">
+
+📚 500 palavras
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="#">
+
+<div class="button">
+
+📚 1000 palavras
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+</div>
+
+</details>
+
+<!-- Exercícios -->
+
+<details>
+
+<summary>Exercícios</summary>
+
+<div class="children">
+
+<a href="#">
+
+<div class="button">
+
+📝 Exercícios
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="#">
+
+<div class="button">
+
+🎧 Listening
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="#">
+
+<div class="button">
+
+🗣 Speaking
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+</div>
+
+</details>
+
+<!-- Revisão -->
+
+<details>
+
+<summary>Revisão</summary>
+
+<div class="children">
+
+<a href="#">
+
+<div class="button">
+
+⭐ Favoritos
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+<a href="#">
+
+<div class="button">
+
+📖 Continuar leitura
+
+<span>➜</span>
+
+</div>
+
+</a>
+
+</div>
+
+</details>
+
+<footer>
+
+English Story Reader • Versão 1.0
+
+</footer>
+
+</body>
+</html>
